@@ -2,8 +2,8 @@ const burger = document.querySelector('#burger');
 
 const mobileUlContainer = document.querySelector('.mobileUlContainer');
 
-const desktopUl = document.querySelector('.desktopUl');
-const desktopUla = document.querySelectorAll('.desktopUl a');
+// const desktopUl = document.querySelector('.desktopUl');
+// const desktopUla = document.querySelectorAll('.desktopUl a');
 
 const mobileUl = document.querySelector('.mobileUl');
 const mobileUla = document.querySelectorAll('.mobileUl a')
