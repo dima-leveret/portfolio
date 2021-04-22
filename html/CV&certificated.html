@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"  href="/css/homepage.css" >
+    <link rel="stylesheet"  href="/css/menu.css" >
+    <link rel="stylesheet"  href="/css/certificates.css" >
+    <title>Homepage</title>
+</head>
+<body>
+    <section class="homeSection">
+        <header class="homeHeader">
+            <a href="index.html" class="homeLogo">Dima Zaichenko</a>
+            <!-- <div class="languages" >
+                <p class="activeLanguage" >EN</p>
+                <p>PL</p>
+                <p>RU</p>
+            </div> -->
+            <ul class="desktopUl" >
+                <li><a href="index.html">About me</a></li>
+                <li><a href="projects.html" >Projects</a></li>
+                <li><a href="skills.html" >Skills</a></li>
+                <li><a href="CV&certificated.html" class="activeTab" >Certificates</a></li>
+                <li><a href="contacts.html" >Contacts</a></li>
+            </ul>
+            <div id="burger" ></div>
+            
+        </header>
+        <div class="homeContainer">
+            <div class="mobileUlContainer" >
+                <!-- <div class="languagesMobile" >
+                    <p class="activeLanguage" >EN</p>
+                    <p>PL</p>
+                    <p>RU</p>
+                </div> -->
+                <ul class="mobileUl" >
+                    <li><a href="index.html" >About me</a></li>
+                    <li><a href="projects.html" >Projects</a></li>
+                    <li><a href="skills.html" >Skills</a></li>
+                    <li><a href="CV&certificated.html" class="activeTab" >Certificates</a></li>
+                    <li><a href="contacts.html" >Contacts</a></li>
+                </ul>
+            </div>
+            <div class="certificatesContent" >
+                <div>
+                    <img class="isaLogo" src="/img/logoISA.svg" alt="isa_logo" >
+                    <a href="https://infoshareacademy.com/" target="_blank" >
+                        <img class="certificate" src="/img/ISAcertificate.png" alt="ISA">
+                    </a>
+                    
+                    <p class="certificateDescription" >
+                       <strong>infoShare Academy</strong><br/>
+                       Junior Front-end Developer <br/>
+                       Live remote course <br/>
+                       HTML | CSS | JavaScript | React
+                    </p>
+                </div>
+                <div>
+                    <img class="geekbrainsLogo" src="/img/geebrains_logo.png" alt="geekbrains_logo" >
+                    <a href="https://gb.ru/" target="_blank" >
+                        <img class="certificate" src="/img/GeekBrainsCertificate.png" alt="GeekBrains">
+                    </a>
+                    <p class="certificateDescription" >
+                        <strong>GeekBrains</strong><br/>
+                       Web Developer <br/>
+                       Remote intensive <br/>
+                       HTML | CSS 
+                    </p>
+                </div>
+            </div>
+        </div>
+    <section/>
+
+    <script src="/js/menu.js" ></script>
+    <script src="/js/language.js" ></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+.projectsContent {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projectsContent div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 460px;
+    width: 100%;
+    margin: 100px 20px;
+}
+
+.vapaLogo {
+    width: 30px;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.oarLogo {
+    width: 80px;
+    align-self: center;
+    padding-bottom: 27px;
+}
+
+.pagePreview {
+    border-radius: 20px;
+    filter: grayscale(60%);
+    transition: 0.5s;
+}
+
+.pagePreview:hover {
+    transform: translateY(-10px);
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+
+.description {
+    color: #fff;
+    height: 100%;
+    padding: 40px 0;
+}
+
+.projectBtn {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 400;
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+.projectBtn:hover {
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 1000px) {
+    .projectsContent{
+        flex-wrap: wrap;
+    }
+
+    .projectsContent div {
+        margin: 20px;
+    }
+}

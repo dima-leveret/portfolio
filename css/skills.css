@@ -1,0 +1,101 @@
+.skillsContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+}
+
+.skill {
+    margin: 60px;
+    width: 100px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill div {
+    width: 80px;
+    height: 80px;
+    background:#fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(70%);
+    transition: 0.5s;
+}
+
+.skill div:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.skill p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.html,
+.css {
+    width: 33px;
+    height: 46px;
+    align-self: center;
+}
+
+.JavaScript {
+    width: 35px;
+    height: 45px;
+    align-self: center;
+}
+
+.react,
+.redux,
+.rest,
+.json,
+.git,
+.gitHub {
+    width: 45px;
+    height: 45px;
+    align-self: center;
+}
+
+.ajax {
+    width: 58px;
+    height: 25px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
+.jira{
+    width: 41px;
+    height: 41px;
+    align-self: center;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+.scrum{
+    width: 25px;
+    height: 50px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .skills {
+        margin: 20px 0 20px;
+    }
+
+    .skill {
+        margin: 10px;
+    }
+}

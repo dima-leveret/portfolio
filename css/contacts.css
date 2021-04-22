@@ -1,0 +1,128 @@
+.contactsContent {
+    width: 100%;
+    height: 100%;
+    display:  flex;
+    justify-content: space-between;
+    margin: 100px 10px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    transition: 1s;
+    margin-left: 200px;
+}
+
+.infoContainer h2 {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.info p {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.info div {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    margin-right: 100px;
+}
+
+.socialIcons div a{
+    width: 80px;
+    height: 80px;
+    background:#fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    filter: grayscale(70%);
+    transition: 0.5s;
+}
+
+.socialIcons div a:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+.socialIcon {
+    width: 45px;
+    height: 45px;
+    align-self: center;
+}
+
+
+.infoIcon {
+    width: 20px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 970px) {
+    .infoContainer,
+    .socialIcons {
+        margin: 30px;
+    }
+
+    .contactsContent {
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contactsContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .socialIcons {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .socialIcons {
+        width: 180px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-gap: 15px;
+        align-self: center;
+    }
+
+    .infoContainer,
+    .socialIcons {
+        margin: 10px;
+    }
+
+    .contactsContent {
+        margin: 0px;
+    }
+} 
