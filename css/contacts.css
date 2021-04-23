@@ -63,7 +63,7 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    filter: grayscale(70%);
+    filter: grayscale(50%);
     transition: 0.5s;
 }
 
