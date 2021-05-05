@@ -27,7 +27,18 @@ mobileUla.forEach(a => {
 })
 
 
+
+
 burger.onclick = function() {
     burger.classList.toggle('activeBurger');
-    mobileUlContainer.classList.toggle('activeUl')
+    mobileUlContainer.classList.toggle('activeUl');
+
 }
+
+
+// if (burger.classList.contains('activeBurger')) {
+//     addEventListener('scroll', (event) => {
+//         console.log(event);
+//         event.preventDefault(true)
+//     })
+// } 
