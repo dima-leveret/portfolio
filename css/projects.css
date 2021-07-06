@@ -1,17 +1,25 @@
 .projectsContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
-.projectsContent div {
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px 0 70px;
+}
+
+.projectsContainer div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     max-width: 460px;
     width: 100%;
-    margin: 100px 20px;
+    margin: 30px 20px;
 }
 
 .vapaLogo {
@@ -24,6 +32,19 @@
     width: 80px;
     align-self: center;
     padding-bottom: 27px;
+}
+
+.snakeLogo {
+    width: 60px;
+    align-self: center;
+    padding-bottom: 27px;
+    filter: invert();
+}
+
+.teamifyLogo {
+    width: 100px;
+    align-self: center;
+    padding: 27px 0px 32px;
 }
 
 .pagePreview {
