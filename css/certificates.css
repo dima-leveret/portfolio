@@ -1,18 +1,25 @@
 .certificatesContent {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     width: 100%;
 }
 
-.certificatesContent div {
+.certificatesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 20px;
+}
+
+.certificatesContainer div {
     display: flex;
     flex-direction: column;
     max-width: 500px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    margin: 70px 20px;
+    margin: 30px 20px;
 }
 
 .isaLogo {
@@ -25,6 +32,12 @@
     width: 150px;
     align-self: center;
     padding-bottom: 35px;
+}
+
+.FCCLogo {
+    width: 220px;
+    align-self: center;
+    padding-bottom: 30px;
 }
 
 .certificate {
