@@ -53,6 +53,12 @@
     padding: 30px 0 33px;
 }
 
+.selectShareLogo {
+    width: 150px;
+    align-self: center;
+    padding: 30px 0 30px;
+}
+
 .pagePreview {
     border-radius: 20px;
     filter: grayscale(60%);
