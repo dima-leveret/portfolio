@@ -10,7 +10,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 95%;
+    width: 80%;
 }
 
 .skill {
@@ -55,6 +55,17 @@
 .JavaScript {
     width: 35px;
     height: 45px;
+    align-self: center;
+}
+
+.TypeScript {
+    width: 55px;
+    height: 55px;
+    align-self: center;
+}
+.WebPack{
+    width: 60px;
+    height: 60px;
     align-self: center;
 }
 
